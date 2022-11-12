@@ -3,33 +3,38 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
 import {
   faYoutube,
-  faFacebook,
+  faDiscord,
   faTwitter,
   faSquareInstagram,
   faLinkedin,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function SocialFollow() {
   const socialMedia = [{
-    name: "Facebook",
-    icon: faFacebook,
-    link: "https://www.facebook.com/yourfacebookpage",
-  }, {
-    name: "Instagram",
-    icon: faSquareInstagram,
-    link: "https://www.instagram.com/yourinstagrampage",
+    name: "Discord",
+    icon: faDiscord,
+    link: "https://discord.gg/DYrRUNgX",
   }, {
     name: "Twitter",
     icon: faTwitter,
-    link: "https://www.twitter.com/yourtwitterpage",
-  }, {
-    name: "Youtube",
-    icon: faYoutube,
-    link: "https://www.youtube.com/youryoutubechannel",
+    link: "https://twitter.com/allaboutprog",
   }, {
     name: "Linkedin",
     icon: faLinkedin,
-    link: "https://www.linkedin.com/yourlinkedinpage",
+    link: "https://www.linkedin.com/company/all-about-programming/",
+  }, {
+    name: "GitHub",
+    icon: faGithub,
+    link: "https://github.com/All-About-Programming-Community",
+  }, {
+    name: "Instagram",
+    icon: faSquareInstagram,
+    link: "https://www.instagram.com/all.aboutprogramming/",
+  }, {
+    name: "Youtube",
+    icon: faYoutube,
+    link: "https://www.youtube.com/channel/UCHHMuJfu_OsEJ_pvErbbsNA",
   }];
   return (
     <div
@@ -41,7 +46,7 @@ export default function SocialFollow() {
             href={item.link}
             key={i}
             target="_blank"
-            className="dark:transition-colors transition-colors bg-transparent dark:text-primary_orange-0 dark:hover:text-facebook-0 dark:ease-linear dark:hover:ease-in block text-center text-gray-700 py-2 px-2 text-base hover:text-blue-600 ease-linear hover:ease-in rounded-t-md"
+            className="block py-2 px-2 jello-vertical"
             rel="noreferrer"
           >
             <FontAwesomeIcon
