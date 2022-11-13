@@ -7,8 +7,8 @@ const Layout = ({ children }: {
     children: any;
 }) => {
     return (
-        <div className="w-screen h-screen bg-transparent">
-            <div className="flex flex-col h-full w-full">
+        <div className="w-screen h-screen bg-transparent overscroll-none">
+            <div className="flex flex-col h-full w-full z-0">
                 <Navbar/>
                 <SocialFollow />
                 {/* <Hamburger /> */}
