@@ -20,8 +20,8 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. 
           </div>
           <div className="flex pt-16 justify-between">
-            <div className=" w-1/3 text-2xl text-center rounded-full border-2 border-[#F9E596] bg-[#F9E596] py-6 px-12 cursor-pointer hover:bg-transparent ">Register</div>
-            <div className=" w-1/3 text-2xl py-6 px-12 text-center rounded-full border-2 border-[#F9E596] cursor-pointer hover:bg-[#F9E596] ">Learn More</div>
+            <div className=" w-[40%] text-2xl text-center rounded-full border-2 border-[#F9E596] bg-[#F9E596] py-6 px-12 cursor-pointer hover:bg-transparent ">Register</div>
+            <div className=" w-[40%] text-2xl py-6 px-12 text-center rounded-full border-2 border-[#F9E596] cursor-pointer hover:bg-[#F9E596] ">Learn More</div>
           </div>
         </div>
         
