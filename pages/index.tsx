@@ -24,75 +24,80 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mb-36  pl-8  relative">
-        <div className="w-2/5">
-          <h1 className="text-8xl  pt-16 text-[#183E43]">
-            Hack The<br /><span className="text-[#3EB0AC]">Winter</span>
-          </h1>
-          <div className="text-xl   py-16  tracking-wide">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+      <div className="w-full h-full flex flex-col gap-20">
+        <div className="w-full h-full flex flex-col gap-20 px-10">
+
+          <div className='absolute right-0 top-0 hidden md:block w-[58%] h-full overflow-hidden '>
+            <img src="./assets/homepage-bg/Winter-Pines.png" alt="homepage" />
           </div>
-          <div className="flex pt-12 justify-start items-center gap-5">
-            <div className=" w-[50%] text-2xl text-center text-white rounded-full border-2 border-[#183E43] bg-[#183E43] py-4 px-12 cursor-pointer hover:bg-transparent hover:text-black ">Register with H2S</div>
-            <div className=" w-[40%] text-2xl py-4 px-12 text-center rounded-full border-2 border-[#183E43] cursor-pointer hover:bg-[#183E43]  hover:text-white">Learn More</div>
+          <div className="w-2/5">
+            <h1 className="text-8xl  pt-16 text-[#183E43]">
+              Hack The<br /><span className="text-[#3EB0AC]">Winter</span>
+            </h1>
+            <div className="text-xl   py-16  tracking-wide">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+            </div>
+            <div className="flex pt-12 justify-start items-center gap-5">
+              <div className=" w-[50%] text-2xl text-center text-white rounded-full border-2 border-[#183E43] bg-[#183E43] py-4 px-12 cursor-pointer hover:bg-transparent hover:text-black ">Register with H2S</div>
+              <div className=" w-[40%] text-2xl py-4 px-12 text-center rounded-full border-2 border-[#183E43] cursor-pointer hover:bg-[#183E43]  hover:text-white">Learn More</div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className='absolute right-0 top-0  w-[58%]   h-full overflow-hidden '>
-        <img src="./assets/homepage-bg/Winter-Pines.png" alt="homepage" />
-      </div>
-      <div className="px-8 " style={{ backgroundImage: "url('./assets/homepage-bg/Group.svg')", backgroundPosition: "center" }}>
-        <div className='flex h-[50%]'>
-          <div className='w-1/2'>
-            <img src='./assets/homepage-bg/Frame.svg' alt="frame" className='h-[80%] w-full' />
+        <div className="w-full h-full flex flex-col gap-20 bg-[url('/assets/homepage-bg/Group.svg')] bg-fixed bg-center bg-no-repeat">
+          <div className='flex h-full w-full px-10'>
+            <div className='flex w-1/2 h-full justify-center'>
+              <img src='./assets/homepage-bg/Frame.svg' alt="frame" className='w-8/12 h-auto' />
+            </div>
+            <div className='w-1/2 text-center'>
+              <h1 className='text-5xl mt-56'>All About Programming Community</h1>
+              <p className='mt-16 text-xl px-28'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita distinctio sapiente veritatis! Cupiditate consectetur nam, odio est minima nihil possimus autem dolores ex beatae consequuntur voluptatibus, delectus ipsum aliquid laborum repudiandae non soluta veritatis nemo reiciendis. Nam, cum eius!</p>
+            </div>
           </div>
+          <div className='flex flex-col md:flex-row flex-wrap px-10 md:px-32 text-center justify-between'>
+            <div>
+              <h1 className='text-4xl'>Members</h1>
+              <div className='text-5xl pt-2' data-target="500">6000+</div>
+            </div>
+            <div>
+              <h1 className='text-4xl'>Registrations</h1>
+              <div className='text-5xl pt-2' data-target="1500">3000+</div>
+            </div>
+            <div>
+              <h1 className='text-4xl'>Projects</h1>
+              <div className='text-5xl pt-2' data-target="500">100+</div>
+            </div>
+            <div>
+              <h1 className='text-4xl'>Institutes</h1>
+              <div className='text-5xl pt-2' data-target="100">50+</div>
+            </div>
+          </div>
+          <div className="flex flex-row justify-evenly items-center">
+            <img alt="Timeline" className="w-8/12 h-auto" src="./assets/homepage-bg/Timeline.svg" />
+          </div>
+        </div>
+        <div className='w-full h-40 flex flex-col items-center justify-evenly bg-[#EDEDED] mt-20'>
+          <h1 className="text-black font-bold text-3xl">Sponsors</h1>
           <div className='w-1/2 text-center'>
-            <h1 className='text-5xl mt-56'>All About Programming Community</h1>
-            <p className='mt-16 text-xl px-28'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita distinctio sapiente veritatis! Cupiditate consectetur nam, odio est minima nihil possimus autem dolores ex beatae consequuntur voluptatibus, delectus ipsum aliquid laborum repudiandae non soluta veritatis nemo reiciendis. Nam, cum eius!</p>
-          </div>
-        </div>
-        <img alt="Timeline" className="h-full w-full px-16 pb-20" src="./assets/homepage-bg/Timeline.svg" />
-        <div className='flex px-12 h-[6em] text-center justify-between mb-10'>
-          <div>
-            <h1 className='text-4xl'>Members</h1>
-            <div className='text-5xl pt-2' data-target="500">6000+</div>
-          </div>
-          <div>
-            <h1 className='text-4xl'>Registrations</h1>
-            <div className='text-5xl pt-2' data-target="1500">3000+</div>
-          </div>
-          <div>
-            <h1 className='text-4xl'>Projects</h1>
-            <div className='text-5xl pt-2' data-target="500">100+</div>
-          </div>
-          <div>
-            <h1 className='text-4xl'>Institutes</h1>
-            <div className='text-5xl pt-2' data-target="100">50+</div>
-          </div>
-        </div>
-      </div>
-      <div className='w-full h-40 flex flex-col items-center justify-evenly bg-[#EDEDED] mt-20'>
-        <h1 className="text-black font-bold text-3xl">Sponsors</h1>
-        <div className='w-1/2 text-center'>
-          <span> COMING SOON !</span>
-          {/* Platform Partner - Hack2skill
+            <span> COMING SOON !</span>
+            {/* Platform Partner - Hack2skill
             Sponsors coding blocks
             Coding minutes
           */}
+          </div>
         </div>
-      </div>
-      {/* <footer className={styles.footer}>
+        {/* <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        target="_blank"
+        rel="noopener noreferrer"
         >
-          Powered by{' '}
+        Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer> */}
+      </div>
     </div>
   )
 }
