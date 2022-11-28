@@ -32,8 +32,8 @@ export default function Home() {
           <div className="text-xl   py-16  tracking-wide">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
           </div>
-          <div className="flex pt-12 justify-between">
-            <div className=" w-[40%] text-2xl text-center text-white rounded-full border-2 border-[#183E43] bg-[#183E43] py-4 px-12 cursor-pointer hover:bg-transparent hover:text-black ">Register</div>
+          <div className="flex pt-12 justify-start items-center gap-5">
+            <div className=" w-[50%] text-2xl text-center text-white rounded-full border-2 border-[#183E43] bg-[#183E43] py-4 px-12 cursor-pointer hover:bg-transparent hover:text-black ">Register with H2S</div>
             <div className=" w-[40%] text-2xl py-4 px-12 text-center rounded-full border-2 border-[#183E43] cursor-pointer hover:bg-[#183E43]  hover:text-white">Learn More</div>
           </div>
         </div>
@@ -52,29 +52,33 @@ export default function Home() {
           </div>
         </div>
         <img alt="Timeline" className="h-full w-full px-16 pb-20" src="./assets/homepage-bg/Timeline.svg" />
-        <div className='flex px-8 h-[6em] text-center justify-between'>
+        <div className='flex px-12 h-[6em] text-center justify-between mb-10'>
           <div>
-            <h1 className='text-2xl'>Registration</h1>
-            <div className='text-3xl pt-2' data-target="500">0000+</div>
+            <h1 className='text-4xl'>Members</h1>
+            <div className='text-5xl pt-2' data-target="500">6000+</div>
           </div>
           <div>
-            <h1 className='text-2xl'>Participants</h1>
-            <div className='text-3xl pt-2' data-target="1500">0000+</div>
+            <h1 className='text-4xl'>Registrations</h1>
+            <div className='text-5xl pt-2' data-target="1500">3000+</div>
           </div>
           <div>
-            <h1 className='text-2xl'>Projects</h1>
-            <div className='text-3xl pt-2' data-target="500">0000+</div>
+            <h1 className='text-4xl'>Projects</h1>
+            <div className='text-5xl pt-2' data-target="500">100+</div>
           </div>
           <div>
-            <h1 className='text-2xl'>Institutes</h1>
-            <div className='text-3xl pt-2' data-target="100">0000+</div>
+            <h1 className='text-4xl'>Institutes</h1>
+            <div className='text-5xl pt-2' data-target="100">50+</div>
           </div>
         </div>
       </div>
-      <div className='w-full h-40 flex flex-col items-center justify-evenly bg-[#EDEDED] mt-10'>
+      <div className='w-full h-40 flex flex-col items-center justify-evenly bg-[#EDEDED] mt-20'>
         <h1 className="text-black font-bold text-3xl">Sponsors</h1>
         <div className='w-1/2 text-center'>
           <span> COMING SOON !</span>
+          {/* Platform Partner - Hack2skill
+            Sponsors coding blocks
+            Coding minutes
+          */}
         </div>
       </div>
       {/* <footer className={styles.footer}>
