@@ -1,7 +1,7 @@
 
 
 const Tracks = () => {
-  let tracks = ["Web Development", "UI/UX", "Blockchain/Web3.0", "Artificial Intelligence/ Machine Learning", "Android Development"]
+  let tracks = ["FrontEnd Development", "Backend Development", "Blockchain/Web3.0", "Data Science", "Cloud Computing", "Android Development"]
   return (
     <div className="px-28 py-28">
       <h1 className="text-5xl">Domains</h1>

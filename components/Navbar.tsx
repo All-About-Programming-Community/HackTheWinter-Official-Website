@@ -9,14 +9,14 @@ const Navbar = () => {
             <img src="./logo.svg" height={80} width={100} alt="AAP-logo" className="pl-5 py-1" />
             {menu.map((item, index) => {
                 return (
-                    <div key={index} className="text-xl font-semibold">
+                    <div key={index} className="text-xl">
                         <Link href={item.route}>
                             {item.label}
                         </Link>
                     </div>
                 )
             })}
-            <div className="text-xl font-semibold">
+            <div className="text-xl">
                 More &gt;
             </div>
         </div>
