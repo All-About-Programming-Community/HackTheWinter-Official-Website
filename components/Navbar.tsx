@@ -14,7 +14,7 @@ const Navbar = () => {
                     return (
                         <div key={index} className="text-xl nav-item box-border p-3 flex items-center xs:font-semibold">
 
-                            <Link href={item.route} className="nav-link">
+                            <Link href={item.route} className="nav-link" onClick={() => setActive(!active)}>
                                 {item.label}
                             </Link>
                         </div>

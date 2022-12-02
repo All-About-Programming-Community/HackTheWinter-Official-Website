@@ -55,40 +55,22 @@ export default function Home() {
           </div>
           <div className='grid lg:grid-cols-4 md:grid-cols-2 xs:grid-cols-1 gap-8 px-10 md:px-32 text-center '>
             <div className='mb-3.5'>
-              <h1 className='text-4xl'>Members</h1>
-              <div className='text-3xl pt-2' data-target="500">6000+</div>
+              <h1 className='text-4xl xs:text-3xl'>Members</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="500">6000+</div>
             </div>
             <div className='mb-3.5'>
-              <h1 className='text-4xl'>Registrations</h1>
-              <div className='text-3xl pt-2' data-target="1500">3000+</div>
+              <h1 className='text-4xl xs:text-3xl'>Registrations</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="1500">3000+</div>
             </div>
             <div className='mb-3.5'>
-              <h1 className='text-4xl'>Projects</h1>
-              <div className='text-3xl pt-2' data-target="500">100+</div>
+              <h1 className='text-4xl xs:text-3xl'>Projects</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="500">100+</div>
             </div>
             <div className='mb-3.5'>
-              <h1 className='text-4xl'>Institutes</h1>
-              <div className='text-3xl pt-2' data-target="100">50+</div>
+              <h1 className='text-4xl xs:text-3xl'>Institutes</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="100">50+</div>
             </div>
           </div>
-          {/* <div className='flex flex-col md:flex-row flex-wrap px-10 md:px-32 text-center justify-between'>
-            <div className='mb-3.5'>
-              <h1 className='text-4xl'>Members</h1>
-              <div className='text-3xl pt-2' data-target="500">6000+</div>
-            </div>
-            <div className='mb-3.5'>
-              <h1 className='text-4xl'>Registrations</h1>
-              <div className='text-3xl pt-2' data-target="1500">3000+</div>
-            </div>
-            <div className='mb-3.5'>
-              <h1 className='text-4xl'>Projects</h1>
-              <div className='text-3xl pt-2' data-target="500">100+</div>
-            </div>
-            <div className='mb-3.5'>
-              <h1 className='text-4xl'>Institutes</h1>
-              <div className='text-3xl pt-2' data-target="100">50+</div>
-            </div>
-          </div> */}
           <div className="flex flex-row justify-evenly items-center">
             <img alt="Timeline" className="md:w-8/12 xs:full h-auto" src="./assets/homepage-bg/Timeline.svg" />
           </div>

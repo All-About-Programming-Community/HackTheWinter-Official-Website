@@ -120,7 +120,7 @@ a {
 .lines {
   width: 30px;
   height: 3px;
-  background: #000;
+  background: #183E43;
   display: block;
   margin: 5px 0;
   transition: transform 1s, width 0.5s;
