@@ -71,6 +71,9 @@ export default function Home() {
               <div className='text-5xl pt-2' data-target="100">50+</div>
             </div>
           </div>
+
+          
+          
           <div className="flex flex-row justify-evenly items-center">
             <img alt="Timeline" className="w-8/12 h-auto" src="./assets/homepage-bg/Timeline.svg" />
           </div>
