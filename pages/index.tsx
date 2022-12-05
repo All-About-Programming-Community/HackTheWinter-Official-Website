@@ -75,16 +75,21 @@ export default function Home() {
             <img alt="Timeline" className="md:w-8/12 xs:full h-auto" src="./assets/homepage-bg/Timeline.svg" />
           </div>
         </div>
-        <div className='w-full h-40 flex flex-col items-center justify-evenly bg-[#EDEDED] mt-20'>
-          <h1 className="text-black font-bold text-3xl">Sponsors</h1>
-          <div className='w-1/2 text-center'>
-            <span> COMING SOON !</span>
-            {/* Platform Partner - Hack2skill
-            Sponsors coding blocks
-            Coding minutes
-          */}
+        
+        <div className='w-full h-full flex flex-col justify-start items-center gap-8 p-5 bg-[#EDEDED]'>
+          <h1 className='text-5xl font-bold'>Our Sponsors</h1>
+          <h1 className='text-2xl'>Platform Partner</h1>
+          <div className='w-full h-full flex flex-col sm:flex-row justify-evenly items-center'>
+            <img src='https://hack2skill.com/brandguidelines/assets/images/H2S_Gradient_Logo.svg' alt="H2S" className='px-10 w-full sm:w-1/4 h-auto' />
+          </div>
+          <h1 className='text-2xl'>Powered By</h1>
+          <div className='w-full h-full flex flex-col sm:flex-row justify-evenly items-center gap-10 px-10'>
+            <img src='./codingMinutes.png' alt="Coding Minutes" className='w-full sm:w-1/4 h-auto' />
+            <img src='./codingBlocksLogo.png' alt="Coding Blocks" className='w-full sm:w-1/4 h-auto' />
           </div>
         </div>
+
+
         {/* <footer className={styles.footer}>
         <a
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
