@@ -80,10 +80,10 @@ export default function Home() {
           <h1 className='text-5xl font-bold'>Our Sponsors</h1>
           <h1 className='text-2xl'>Platform Partner</h1>
           <div className='w-full h-full flex flex-col sm:flex-row justify-evenly items-center'>
-            <img src='https://hack2skill.com/brandguidelines/assets/images/H2S_Gradient_Logo.svg' alt="H2S" className='w-full sm:w-1/4 h-auto' />
+            <img src='https://hack2skill.com/brandguidelines/assets/images/H2S_Gradient_Logo.svg' alt="H2S" className='px-10 w-full sm:w-1/4 h-auto' />
           </div>
           <h1 className='text-2xl'>Powered By</h1>
-          <div className='w-full h-full flex flex-col sm:flex-row justify-evenly items-center'>
+          <div className='w-full h-full flex flex-col sm:flex-row justify-evenly items-center gap-10 px-10'>
             <img src='./codingMinutes.png' alt="Coding Minutes" className='w-full sm:w-1/4 h-auto' />
             <img src='./codingBlocksLogo.png' alt="Coding Blocks" className='w-full sm:w-1/4 h-auto' />
           </div>
