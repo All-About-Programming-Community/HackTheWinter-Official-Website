@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    min-width: 260px;
 }
 
 a {
@@ -93,4 +94,61 @@ a {
     -webkit-transform: scale3d(1, 1, 1);
             transform: scale3d(1, 1, 1);
   }
+}
+
+
+/* hamburger icon */
+.ham-burger {
+  /* background-color: #0070f3; */
+  position: absolute;
+  /* right: 5%; */
+  cursor: pointer;
+}
+
+.ham-open .line1 {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.ham-open .line2 {
+  width: 0;
+}
+
+.ham-open .line3 {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.lines {
+  width: 30px;
+  height: 3px;
+  background: #183E43;
+  display: block;
+  margin: 5px 0;
+  transition: transform 1s, width 0.5s;
+}
+
+
+.nav-link:hover{
+  border-bottom: 2px solid #183E43;
+}
+
+.active-nav-link{
+  border-bottom: 2px solid #183E43;
+}
+
+.active-nav {
+  width: 100%;
+  height: 9999px;
+  background: #f3f3f3;
+  transition: 0.7s ease-out;
+  top : 0; 
+}
+
+
+@media (max-width : 639px) {
+  .nav{
+    position: absolute;
+    top: -400%;
+    width: 100%;
+    transition: 0.7s ease-out; 
+}
 }

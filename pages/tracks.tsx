@@ -3,8 +3,8 @@
 const Tracks = () => {
   let tracks = ["FrontEnd Development", "Backend Development", "Blockchain/Web3.0", "Data Science", "Cloud Computing", "Android Development"]
   return (
-    <div className="px-28 py-28">
-      <h1 className="text-5xl">Domains</h1>
+    <div className="md:px-28 md:py-28 sm:px-10 xs:py-10">
+      <h1 className="text-5xl text-center">Domains</h1>
       <ul className="pt-8">
         {tracks.map((track, idx) => {
           return (

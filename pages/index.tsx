@@ -25,54 +25,54 @@ export default function Home() {
       </Head>
 
       <div className="w-full h-full flex flex-col gap-20">
-        <div className="w-full h-full flex flex-col gap-20 px-10">
+        <div className="w-full h-full flex flex-col gap-20 sm:px-10 xs:px-5">
 
-          <div className='absolute right-0 top-0 hidden md:block w-[58%] h-full overflow-hidden '>
+          <div className='absolute right-0 top-0 hidden md:block w-[54%] h-full overflow-hidden '>
             <img src="./assets/homepage-bg/Winter-Pines.png" alt="homepage" />
           </div>
-          <div className="w-2/5">
-            <h1 className="text-8xl  pt-16 text-[#183E43]">
+          <div className="md:w-3/6 sm:w-full">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl  pt-14 text-[#183E43]">
               Hack The<br /><span className="text-[#3EB0AC]">Winter</span>
             </h1>
-            <div className="text-xl   py-16  tracking-wide">
+            <div className="text-xl  py-10  tracking-wide md:pr-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
             </div>
-            <div className="flex pt-12 justify-start items-center gap-5">
-              <div className=" w-[50%] text-2xl text-center text-white rounded-full border-2 border-[#183E43] bg-[#183E43] py-4 px-12 cursor-pointer hover:bg-transparent hover:text-black ">Register with H2S</div>
-              <div className=" w-[40%] text-2xl py-4 px-12 text-center rounded-full border-2 border-[#183E43] cursor-pointer hover:bg-[#183E43]  hover:text-white">Learn More</div>
+            <div className="flex xs:flex-col md:flex-row pt-10 justify-start items-center gap-5">
+              <div className="xs:w-full  lg:w-[50%] md:w-full xl:text-2xl text-center text-white rounded-full border-2 border-[#183E43] bg-[#183E43] py-4 px-12 cursor-pointer hover:bg-transparent hover:text-black ">Register with H2S</div>
+              <div className="xs:w-full lg:w-[40%] md:w-full xl:text-2xl py-4 px-12 text-center rounded-full border-2 border-[#183E43] cursor-pointer hover:bg-[#183E43]  hover:text-white">Learn More</div>
             </div>
           </div>
         </div>
         <div className="w-full h-full flex flex-col gap-20 bg-[url('/assets/homepage-bg/Group.svg')] bg-fixed bg-center bg-no-repeat">
-          <div className='flex h-full w-full px-10'>
-            <div className='flex w-1/2 h-full justify-center'>
-              <img src='./assets/homepage-bg/Frame.svg' alt="frame" className='w-8/12 h-auto' />
+          <div className='xs:grid flex xs:grid-cols-1 md:grid-cols-2 gap-5 h-full w-full sm:px-10'>
+            <div className='flex sm:w-1/2 xs:w-full h-full justify-center px-5 md:px-0 lg:px-5'>
+              <img src='./assets/homepage-bg/Frame.svg' alt="frame" className='md:w-8/12 sm:w-full h-auto' />
             </div>
-            <div className='w-1/2 text-center'>
-              <h1 className='text-5xl mt-56'>All About Programming Community</h1>
-              <p className='mt-16 text-xl px-28'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita distinctio sapiente veritatis! Cupiditate consectetur nam, odio est minima nihil possimus autem dolores ex beatae consequuntur voluptatibus, delectus ipsum aliquid laborum repudiandae non soluta veritatis nemo reiciendis. Nam, cum eius!</p>
+            <div className='sm:w-1/2 xs:w-full text-center lg:px-10 '>
+              <h1 className='text-5xl xs:text-4xl xs:mt-24 lg:mt-40 md:mt-20'>All About Programming Community</h1>
+              <p className='mt-16 text-xl xl:px-28 xs:px-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam expedita distinctio sapiente veritatis! Cupiditate consectetur nam, odio est minima nihil possimus autem dolores ex beatae consequuntur voluptatibus, delectus ipsum aliquid laborum repudiandae non soluta veritatis nemo reiciendis. Nam, cum eius!</p>
             </div>
           </div>
-          <div className='flex flex-col md:flex-row flex-wrap px-10 md:px-32 text-center justify-between'>
-            <div>
-              <h1 className='text-4xl'>Members</h1>
-              <div className='text-5xl pt-2' data-target="500">6000+</div>
+          <div className='grid lg:grid-cols-4 md:grid-cols-2 xs:grid-cols-1 gap-8 px-10 md:px-32 text-center '>
+            <div className='mb-3.5'>
+              <h1 className='text-4xl xs:text-3xl'>Members</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="500">6000+</div>
             </div>
-            <div>
-              <h1 className='text-4xl'>Registrations</h1>
-              <div className='text-5xl pt-2' data-target="1500">3000+</div>
+            <div className='mb-3.5'>
+              <h1 className='text-4xl xs:text-3xl'>Registrations</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="1500">3000+</div>
             </div>
-            <div>
-              <h1 className='text-4xl'>Projects</h1>
-              <div className='text-5xl pt-2' data-target="500">100+</div>
+            <div className='mb-3.5'>
+              <h1 className='text-4xl xs:text-3xl'>Projects</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="500">100+</div>
             </div>
-            <div>
-              <h1 className='text-4xl'>Institutes</h1>
-              <div className='text-5xl pt-2' data-target="100">50+</div>
+            <div className='mb-3.5'>
+              <h1 className='text-4xl xs:text-3xl'>Institutes</h1>
+              <div className='text-3xl xs:text-2xl pt-2' data-target="100">50+</div>
             </div>
           </div>
           <div className="flex flex-row justify-evenly items-center">
-            <img alt="Timeline" className="w-8/12 h-auto" src="./assets/homepage-bg/Timeline.svg" />
+            <img alt="Timeline" className="md:w-8/12 xs:full h-auto" src="./assets/homepage-bg/Timeline.svg" />
           </div>
         </div>
         
