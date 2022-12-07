@@ -99,9 +99,7 @@ a {
 
 /* hamburger icon */
 .ham-burger {
-  /* background-color: #0070f3; */
   position: absolute;
-  /* right: 5%; */
   cursor: pointer;
 }
 
