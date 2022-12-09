@@ -58,7 +58,7 @@ export default function Home() {
               <img src='./assets/homepage-bg/Frame.svg' alt="frame" className='hidden sm:block md:w-8/12 sm:w-full h-screen' />
             </div>
             <div className='flex flex-col sm:w-1/2 xs:w-full text-center px-3 lg:px-10 text-xl gap-10'>
-              <h1 className='text-5xl xs:text-4xl xs:mt-24 lg:mt-40 md:mt-20'>All About Programming Community</h1>
+              <h1 className='text-5xl xs:text-4xl xs:mt-18 lg:mt-40 md:mt-20'>All About Programming Community</h1>
               <p>All About Programming Community aims at providing everything needed to ace your tech career free of cost which includes Free courses, Job/Internship Updates, Hackathons, Expert Sessions, Roadmaps, Coding Contests, Mini projects, Mock Interviews , Free Resume Reviews and much more.
               </p>
               <p>
